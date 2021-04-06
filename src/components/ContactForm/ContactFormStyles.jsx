@@ -3,6 +3,7 @@ const useStyles = createUseStyles({
   Phonebook: {
     width: '450px',
     border: '2px solid black',
+    borderRadius: '10px',
     padding: '10px 10px',
     '& button': {
       border: ' 2px solid rgba(136,31,136,0.87)',

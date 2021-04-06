@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import useStyles from './styles';
+import useStyles from './ContactFormStyles';
 const initialState = {
   name: '',
   number: '',

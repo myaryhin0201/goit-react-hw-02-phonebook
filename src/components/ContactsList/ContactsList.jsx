@@ -1,11 +1,12 @@
 import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
-import ContactItem from './ContantItem';
+import ContactItem from '../ContantItem';
 const useStyles = createUseStyles({
   ContactsList: {
     padding: '20px',
     width: '450px',
     border: '2px solid black',
+    borderRadius: '10px',
     marginBottom: '20px',
   },
 });

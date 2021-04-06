@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import useStyles from './styles';
+import useStyles from './FilterStyles';
 const Filter = ({ value, onChange }) => {
   const classes = useStyles();
   return (

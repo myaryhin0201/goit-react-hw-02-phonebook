@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import useStyles from './styles';
+import useStyles from './ContantItemStyles';
 const ContanctItem = ({ id, name, number, onDeleteContact }) => {
   const classes = useStyles();
   return (
